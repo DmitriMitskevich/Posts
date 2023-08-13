@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+    <div class="p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis">Статья</h1>
+      <p class="fs-5 text-body-secondary">Кто умеет и любит писать и хочет на этом зарабатывать.</p>
+    </div>
+    <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Заказать статью</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">BYN 45<small class="text-body-secondary fw-light">/статью</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li></li>
+              <li>Копирайтинг</li>
+              <li>Рерайтинг</li>
+              <li>Перевод</li>
+            </ul>
+            <a class="w-100 btn btn-lg btn-outline-primary" href="/post_order">Заказать</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Готовая статья</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">BYN 20<small class="text-body-secondary fw-light">/статья</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Каталог готовых статей</li>
+              <li>Любая тема</li>
+              <li>Фото, графика, коллаж</li>
+            </ul>
+            <a class="w-100 btn btn-lg btn-outline-primary" href="/posts">Найти статью</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm ">
+          <div class="card-header py-3 ">
+            <h4 class="my-0 fw-normal">Написать статью</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">BYN 0<small class="text-body-secondary fw-light">/статью</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Корректировка<span> BYN 0.80<small class="text-body-secondary fw-light">/1000знаков</small></span></li>
+              <li>Редактирование<span> BYN 4,50<small class="text-body-secondary fw-light">/1000знаков</small></span></li>
+              <li>Проверка на уникальность</li>
+            </ul>
+            <a class="w-100 btn btn-lg btn-outline-primary" href="/create-article" >Написать статью</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    </main>
+    </div>
+{% endblock %}
